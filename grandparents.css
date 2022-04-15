@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Titillium+Web:wght@200&family=Ubuntu:wght@300&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Header Css Start */
+body{
+    background-color: #016b80;
+}
+.contanier {
+    background-color: #D4FF00;
+    height: 100px;
+}
+
+#headlogo{
+    margin-top: 15px;
+    margin-left: 37%;
+}
+
+h3 {
+   text-align: center;
+   font-family: 'Ubuntu', sans-serif;
+   margin-top: -60px;
+   margin-left: 30px;
+   letter-spacing: 1px;
+   font-size: 28px;
+}
+
+h2{
+    text-align: center;
+    margin-top: 8px;
+    margin-left: 30px;
+    font-size: 13px;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    letter-spacing: 0.5px;
+}
+/* Header Css End */
+/* ----------------------------- */
+/* famimg css start */
+.famtext{
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 30px;
+    letter-spacing: 1.5px;
+    line-height: 50px;
+    margin-top: 20px;
+    color: white;
+}
+
+.famimg{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+#famimg{
+    margin-top: 20px;
+    border-top-right-radius: 50px ;
+    border-bottom-left-radius: 50px ;
+}
+/* famimg css end */
+#active{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#active a {
+    display: block;
+    background-color: #016b80;
+    border: 2px solid black;
+    font: 100;
+    width: 120px;
+    font-size: 15px;
+    font-family: 'Ubuntu', sans-serif;
+    letter-spacing: 0.5px;
+    padding: 10px 8px;
+    margin-left: -40%;
+    margin-top: -10%;
+    border-radius: 15px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#active a:hover {
+    background-color: white;
+    color: #016b80;
+}

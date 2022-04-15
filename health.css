@@ -1,0 +1,372 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Titillium+Web:wght@200&family=Ubuntu:wght@300&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Header Css Start */
+.contanier {
+    background-color: #D4FF00;
+    height: 100px;
+}
+
+#headlogo{
+    margin-top: 15px;
+    margin-left: 37%;
+}
+
+h3 {
+   text-align: center;
+   font-family: 'Ubuntu', sans-serif;
+   margin-top: -60px;
+   margin-left: 30px;
+   letter-spacing: 1px;
+   font-size: 28px;
+}
+
+h2{
+    text-align: center;
+    margin-top: 8px;
+    margin-left: 30px;
+    font-size: 13px;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    letter-spacing: 0.5px;
+}
+
+/* Header Css End */
+/* ----------------------------- */
+/* Menubar Css Start */
+.menu-bar {
+    background-color: #016b80;
+    text-align: center;
+}
+
+.menu-bar ul {
+    display: inline-flex;
+    list-style: none;
+    color: white;
+    cursor: pointer;
+}
+
+.menu-bar ul li {
+    font-family: 'Ubuntu', sans-serif;
+    letter-spacing: 1px;
+    width: 150px;
+    margin: 15px;
+    padding: 15px;
+    font-size: 15px;
+    box-sizing: border-box;
+}
+
+.menu-bar ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.active,
+.menu-bar ul li:hover {
+    background: #024351;
+    border-radius: 5px;
+}
+
+.menu-bar .fa {
+    margin-right: 8px;
+}
+
+.submenu1 {
+    display: none;
+}
+
+.menu-bar ul li:hover .submenu1 {
+    display: block;
+    position: absolute;
+    background-color: #016b80;
+    margin: 15px 0px 0px -15px
+}
+
+.menu-bar ul li:hover .submenu1 ul {
+    display: block;
+}
+
+.menu-bar ul li:hover .submenu1 ul li {
+    width: 160px;
+    padding: 10px;
+    border-bottom: 1px solid white;
+    border-radius: 0px;
+    text-align: left;
+}
+
+.menu-bar ul li:hover .submenu1 ul li:last-child {
+    border-bottom: none;
+}
+
+/* Menubar Css End */
+/* ----------------------------- */
+/* Menuimg Css Start */
+.menuimg img {
+    margin: 0% -50% 0% 0%;
+    height: 700px;
+    width: 100%;
+}
+
+#t-contanier {
+    display: flex;
+    position: absolute;
+    margin: 80px 0px 0px 400px;
+    line-height: 40px;
+    height: 200px;
+    width: 500px;
+    font-size: 25px;
+    justify-content: center;
+    align-items: top;
+    text-align: center;
+}
+
+/* Menuimg Css End */
+
+.menu-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 20px;
+    margin: 50px 0px 20px 0px;
+}
+
+/* Button Css Start */
+/* ----------------------------------------- */
+/* --Backhground Colour #016b80 Start-- */
+.btn-item a {
+    display: block;
+    background-color: #016b80;
+    border: 2px solid black;
+    font: 100;
+    width: 120px;
+    font-size: 15px;
+    font-family: 'Ubuntu', sans-serif;
+    letter-spacing: 0.5px;
+    padding: 30px 0px;
+    margin: 10px 30px;
+    border-radius: 15px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.btn-item a:hover {
+    background-color: white;
+    color: #016b80;
+}
+
+/* --Background Colour #016b80 End -- */
+/* --------------------------------------------- */
+/* --Background Colour #c8d8e4 Start-- */
+#active a {
+    display: block;
+    background-color: white;
+    border: 2px solid black;
+    font: 100;
+    width: 120px;
+    font-size: 15px;
+    font-family: 'Ubuntu', sans-serif;
+    letter-spacing: 0.5px;
+    padding: 30px 0px;
+    margin: 10px 30px;
+    border-radius: 15px;
+    text-align: center;
+    text-decoration: none;
+    color: #016b80;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#active a:hover {
+    background-color: #016b80;
+    color: white;
+}
+
+/* --Backhground Colour #c8d8e4-- */
+/* --------------------------------------------- */
+/* --Contact Button Css Start -- */
+#btn-item a {
+    display: block;
+    background-color: #016b80;
+    border: 2px solid black;
+    font: 100;
+    width: 120px;
+    padding: 30px 0px;
+    font-size: 15px;
+    font-family: 'Ubuntu', sans-serif;
+    letter-spacing: 0.5px;
+    margin: 0px 0px 50px 45%;
+    border-radius: 15px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#btn-item a:hover {
+    background-color: white;
+    color: #016b80;
+}
+
+/* --Contact Button Css End -- */
+/* ----------------------------- */
+/* --p-contanier Css Start -- */
+.p-contanier {
+    background-color: #016b80;
+    width: 100%;
+    margin: 10px 0px 0px 0px;
+}
+
+.p-contanier h1 {
+    padding: 30px 10px;
+    text-align: center;
+    color: white;
+    letter-spacing: 1.5px;
+}
+
+#p-contanier{
+    margin: 0px 10px 0px 10px;
+    padding: 10px 120px;
+    height: 220px;
+    font-size: 16px;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: justify;
+    color: white;
+    letter-spacing: 1.5px;
+    line-height: 30px;
+}
+
+/* --p-contanier Css End -- */
+/* ----------------------------- */
+/* --Apappoinment Css Start -- */
+#appoinment a {
+    display: block;
+    background-color: #016b80;
+    border: 2px solid black;
+    width: 140px;
+    padding: 12px 10px;
+    font-size: 15px;
+    font-family: 'Ubuntu', sans-serif;
+    letter-spacing: 0.5px;
+    margin: -80px 0px 50px 44%;
+    border-radius: 25px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#appoinment a:hover {
+    background-color: white;
+    color: #016b80;
+}
+
+/* --Apappoinment Css End -- */
+/* ----------------------------- */
+/* --Imgtable Css Start -- */
+.img-contanier {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imgtable {
+    align-items: center;
+    border: 2px solid black;
+    margin: 50px 10px 0px 10px;
+}
+.imgtable .description {
+    background-color: #016b80;
+    width: 250px;
+    margin: -5px 0px 0px 0px;
+    padding: 20px 20px;
+    text-align: justify;
+    font-size: 15px;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    line-height: 25px;
+}
+
+/* --Imgtable Css End -- */
+
+.img-contanier1 {
+    margin-top: 100px;
+    background-color: #016b80;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imgtable1 img {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    margin: 20px 0px 20px -100px;
+}
+
+/* ----------------------------- */
+/* chat btn css start */
+#chat{
+    flex-direction: column;
+    color: white;
+    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    margin: -150px 0px 20px 100px;
+    padding-left: 50px;
+    text-align: center;
+    letter-spacing: 1px;
+    line-height: 25px;
+}
+#chatbtn a {
+    display: block;
+    background-color: #016b80;
+    border: 2px solid black;
+    width: 120px;
+    padding: 10px 10px;
+    font-size: 15px;
+    font-family: 'Ubuntu', sans-serif;
+    letter-spacing: 0.5px;
+    margin: 0px 0px 50px 50%;
+    border-radius: 25px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#chatbtn a:hover {
+    background-color: white;
+    color: #016b80;
+}
+
+#chatbtn i{
+    margin-right: 10px;
+    font-size: 20px;
+}
+/* ------------------------------- */
+/* footer css start */
+.footer {
+    margin-top: 10px;
+    height: 500px;
+    background-color: #016b80;
+    display: flex;
+    align-items: top;
+    justify-content: left;
+    padding: 30px 0px;
+}
+
+.footerimg img {
+    margin: 0px 0px 0px 50px;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+}
+
+/* footer css end */
